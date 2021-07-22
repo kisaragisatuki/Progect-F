@@ -1,7 +1,71 @@
 body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(109, 116, 119);
+}
+
+.topImg {
+    position: relative;
+    margin-bottom: 5em;
+}
+
+.topLogo {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 60%;
+}
+
+.hakuLogo {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.topImg {
+    width: 100%;
+}
+
+.content {
+    width: 88%;
+    margin: 0 auto;
+    padding-bottom: 5em;
+}
+
+.contentImg {
+    width: 100%;
+    border-radius: .3em;
+    margin-bottom: 3em;
+}
+
+.contentText {
+    margin: 0 1em 0 1em;
+    text-align: justify;
     
 }
 
-h2 {
-    font-size: 25px;
+.contentText>p {
+    font-size: 12px;
+    line-height: 1.2em;
+}
+
+footer {
+    height: 150px;
+    margin-top: 3em;
+    background-color: antiquewhite;
+    position: relative;
+}
+.copyRight {
+    position: absolute;
+    bottom: 2em;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 12px;
 }
