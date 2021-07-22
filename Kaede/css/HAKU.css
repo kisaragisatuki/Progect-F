@@ -5,7 +5,7 @@ body {
 
 .topImg {
     position: relative;
-    margin-bottom: 5em;
+    margin-bottom: 8em;
 }
 
 .topLogo {
@@ -20,13 +20,14 @@ body {
     display: block;
     width: 40%;
     margin: 0 auto;
-    margin-bottom: 3em;
+    margin-bottom: 5em;
 }
 
 h3 {
     font-size: 1.2em;
+    line-height: 1.2em;
     font-weight: bold;
-    margin-bottom: 1em;
+    margin-bottom: .8em;
 }
 
 .topImg {
@@ -34,15 +35,15 @@ h3 {
 }
 
 .content {
-    width: 88%;
+    width: 90%;
     margin: 0 auto;
-    padding-bottom: 5em;
+    padding-bottom: 7em;
 }
 
 .contentImg {
     width: 100%;
     border-radius: .3em;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .contentText {
@@ -52,14 +53,31 @@ h3 {
 }
 
 .contentText>p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.2em;
 }
 
+.mapH2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.52em;
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    letter-spacing: .5em;
+}
+
+.googleMap {
+    filter: invert(10%);
+    display: block;
+    margin: 0 auto;
+    border-radius: .3em;
+    margin-bottom: 10em;
+}
+
 footer {
-    height: 150px;
+    height: 100px;
     margin-top: 3em;
-    background-color: antiquewhite;
+    background-color: rgb(243, 234, 222);
     position: relative;
 }
 .copyRight {
@@ -68,4 +86,12 @@ footer {
     left: 50%;
     transform: translate(-50%, 0);
     font-size: 12px;
+}
+
+hr {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    color: rgb(211, 219, 226);
 }
