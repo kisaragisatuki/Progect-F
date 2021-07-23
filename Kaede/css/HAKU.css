@@ -104,3 +104,8 @@ hr {
     margin-bottom: 5em;
     color: rgb(211, 219, 226);
 }
+
+.mapSection>p {
+    font-size: 13px;
+    line-height: 1.2em;
+}
